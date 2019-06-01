@@ -19,5 +19,29 @@ public class playerController : MonoBehaviour
         var xMov = Input.GetAxis("Horizontal") * movementSpeed;
         var yMov = Input.GetAxis("Vertical") * movementSpeed;
         rb.velocity = new Vector3(xMov, 0, yMov);
+        if (rb.position.x > 6)
+        {
+            Vector3 newPostion = rb.position;
+            newPostion.x = 6;
+            rb.position = newPostion;
+        }
+        else if (rb.position.x < -6)
+        {
+            Vector3 newPostion = rb.position;
+            newPostion.x = -6;
+            rb.position = newPostion;
+        }
+        if (rb.position.z > 4.6)
+        {
+            Vector3 newPostion = rb.position;
+            newPostion.z = 4.6f;
+            rb.position = newPostion;
+        }
+        else if(rb.position.z < -4.6)
+        {
+            Vector3 newPostion = rb.position;
+            newPostion.z = -4.6f;
+            rb.position = newPostion;
+        }
     }
 }

@@ -61,12 +61,27 @@ public class ObjectPooler : MonoBehaviour
 
         GameObject objectToSpawn = poolDictionary[tag].Dequeue();
 
+        IPooledObject pooledObj = objectToSpawn.GetComponent<IPooledObject>();
+        pooledObj.OnObjectSpawn();
+
         objectToSpawn.SetActive(true);
         objectToSpawn.transform.position = position;
         objectToSpawn.transform.rotation = rotation;
 
-        poolDictionary[tag].Enqueue(objectToSpawn);
+        //poolDictionary[tag].Enqueue(objectToSpawn);
 
         return objectToSpawn;
+    }
+
+    public void StoreInPool(string tag, GameObject objectToReturn)
+    {
+        if (!poolDictionary.ContainsKey(tag))
+        {
+            Debug.Log("Pool with the tag: " + tag + "does not exist");
+            return;
+        }
+
+        poolDictionary[tag].Enqueue(objectToReturn);
+        objectToReturn.SetActive(false);
     }
 }
