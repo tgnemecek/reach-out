@@ -7,12 +7,15 @@ public class BulletBehaviour : MonoBehaviour, IPooledObject
 {
     private float bulletSpeed = 10f;
     private Rigidbody rb;
+	private GameObject AUDIO_Hit;
     ObjectPooler instance = ObjectPooler.Instance;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.velocity = transform.forward * bulletSpeed;
+		AUDIO_Hit = GameObject.Find("AUDIO_Hit");
+
     }
 
     // Update is called once per frame
@@ -38,6 +41,7 @@ public class BulletBehaviour : MonoBehaviour, IPooledObject
             MoraleTracker.Instance.DecreaseMorale(10);
             instance.StoreInPool("unit", collision.gameObject);
             instance.StoreInPool("bullet", gameObject);
+			AUDIO_Hit.GetComponent<FMODUnity.StudioEventEmitter>().Play();
         }
 
         if(collision.gameObject.tag == "Wall")

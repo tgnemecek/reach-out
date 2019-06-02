@@ -9,7 +9,7 @@ public class CompanionAlocator : MonoBehaviour
     private static List<string> companionList = new List<string>();
     Vector3 positionDelta;
     Quaternion orientation;
-
+	public GameObject AUDIO_Connect;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,10 +34,11 @@ public class CompanionAlocator : MonoBehaviour
                 {
                     if (col.CompareTo(ai.GetColor())==0)
                     {
-                        collision.gameObject.transform.Translate(0, 0, 1.5f);
+						collision.gameObject.transform.Translate(0, 0, 1.5f);
                         return;
                     }
-                }
+				}
+				AUDIO_Connect.GetComponent<FMODUnity.StudioEventEmitter>().Play();
                 //Debug.Log("Index: " + positionIndex.ToString() + " ; Count: " + ocupiedPosition.Count.ToString());
                 for (int i= ocupiedPosition.Count-1; i>=0; i--)
                 {
