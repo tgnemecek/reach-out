@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class CompanionAlocator : MonoBehaviour
 {
@@ -11,13 +12,14 @@ public class CompanionAlocator : MonoBehaviour
     private static List<GameObject> connections = new List<GameObject>();
     Vector3 positionDelta;
     Quaternion orientation;
-
     private GameObject player;
+    StudioEventEmitter connectSound;
 
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        connectSound = GameObject.Find("AUDIO_Connect").GetComponent<StudioEventEmitter>();
     }
 
     // Update is called once per frame
@@ -85,7 +87,7 @@ public class CompanionAlocator : MonoBehaviour
                     companions[positionIndex] = ai.gameObject;
                     connections[positionIndex] = line;
                 }
-                
+                connectSound.Play();
                 ai.setAsCompanion(positionDelta, transform.rotation, positionIndex);
                 player.GetComponent<Renderer>().material.color = (player.GetComponent<Renderer>().material.color + ai.gameObject.GetComponent<Renderer>().material.color) / 2;
                 positionIndex = ocupiedPosition.Count;

@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 [RequireComponent(typeof(Rigidbody))]
 public class BulletBehaviour : MonoBehaviour, IPooledObject
 {
     private float bulletSpeed = 10f;
     private Rigidbody rb;
+    private StudioEventEmitter HitSound;
     ObjectPooler instance = ObjectPooler.Instance;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.velocity = transform.forward * bulletSpeed;
+        HitSound = GameObject.Find("AUDIO_Hit").GetComponent<StudioEventEmitter>();
     }
 
     // Update is called once per frame
@@ -41,6 +44,7 @@ public class BulletBehaviour : MonoBehaviour, IPooledObject
             MoraleTracker.Instance.DecreaseMorale(SystemConstants.DESTRUCTION_PENALTY);
             instance.StoreInPool("unit", collision.gameObject);
             instance.StoreInPool("bullet", gameObject);
+            HitSound.Play();
         }
 
         if(collision.gameObject.tag == "Wall")
