@@ -31,11 +31,14 @@ public class BulletBehaviour : MonoBehaviour, IPooledObject
     {
         if(collision.gameObject.tag == "Unit")
         {
-            if (collision.gameObject.GetComponent<UnitAI>().IsCompanion())
+            UnitAI ai = collision.gameObject.GetComponent<UnitAI>();
+            if (ai.IsCompanion() || ai.gameObject.transform.position.z < SystemConstants.SCREEN_BOTTOM + 1)
             {
+                instance.StoreInPool("bullet", gameObject);
                 return;
             }
-            MoraleTracker.Instance.DecreaseMorale(10);
+            CompanionAlocator.RemoveCompanion(CompanionAlocator.CheckForCompanion(ai.GetColor()));
+            MoraleTracker.Instance.DecreaseMorale(SystemConstants.DESTRUCTION_PENALTY);
             instance.StoreInPool("unit", collision.gameObject);
             instance.StoreInPool("bullet", gameObject);
         }

@@ -9,10 +9,12 @@ public class UnitAI : MonoBehaviour, IPooledObject
     private static string[] tags = { "blue", "clear", "cyan", "green", "red", "yellow" };
     private bool isCompanion = false;
     private string currentTag;
-    private float speed = 6f;
+    private float speed = SystemConstants.UNIT_SPEED;
     private Rigidbody rb;
     [SerializeField]
     private Transform spawner;
+    [SerializeField]
+    private GameObject exclamation;
     private Vector3 CompanionPlace;
     private Quaternion CompanionOrientation;
     private Transform playerPosition;
@@ -30,6 +32,11 @@ public class UnitAI : MonoBehaviour, IPooledObject
         if (!isCompanion)
         {
             rb.velocity = transform.forward * speed;
+            exclamation.transform.Translate(-transform.forward * speed * Time.deltaTime);
+            if (rb.position.z> -4.5 && exclamation.activeSelf)
+            {
+                exclamation.SetActive(false);
+            }
         }
         else
         {
@@ -60,6 +67,11 @@ public class UnitAI : MonoBehaviour, IPooledObject
         gameObject.GetComponent<Renderer>().material.color = colors[aux];
         currentTag = tags[aux];
         gameObject.transform.rotation = Quaternion.identity;
+        exclamation.SetActive(true);
+        Vector3 parentPos = transform.position;
+        parentPos.z += 3;
+        parentPos.y += 2.5f;
+        exclamation.transform.position = parentPos;
         isCompanion = false;
     }
 

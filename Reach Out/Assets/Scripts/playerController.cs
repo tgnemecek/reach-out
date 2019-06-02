@@ -6,7 +6,7 @@ using UnityEngine;
 public class playerController : MonoBehaviour
 {
     private Rigidbody rb;
-    private int movementSpeed = 5;
+    private float movementSpeed = SystemConstants.PLAYER_SPEED;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,28 +16,29 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var xMov = Input.GetAxis("Horizontal") * movementSpeed;
-        var yMov = Input.GetAxis("Vertical") * movementSpeed;
-        rb.velocity = new Vector3(xMov, 0, yMov);
-        if (rb.position.x > 6)
+        float xMov = Input.GetAxis("Horizontal") * movementSpeed;
+        //float yMov = Input.GetAxis("Vertical") * movementSpeed;
+        //rb.velocity = new Vector3(xMov, 0, yMov);
+        rb.velocity = new Vector3(xMov, 0, 0);
+        if (rb.position.x > SystemConstants.SCREEN_RIGHT)
         {
             Vector3 newPostion = rb.position;
             newPostion.x = 6;
             rb.position = newPostion;
         }
-        else if (rb.position.x < -6)
+        else if (rb.position.x < SystemConstants.SCREEN_LEFT)
         {
             Vector3 newPostion = rb.position;
             newPostion.x = -6;
             rb.position = newPostion;
         }
-        if (rb.position.z > 4.6)
+        if (rb.position.z > SystemConstants.SCREEN_TOP)
         {
             Vector3 newPostion = rb.position;
             newPostion.z = 4.6f;
             rb.position = newPostion;
         }
-        else if(rb.position.z < -4.6)
+        else if(rb.position.z < SystemConstants.SCREEN_BOTTOM)
         {
             Vector3 newPostion = rb.position;
             newPostion.z = -4.6f;
