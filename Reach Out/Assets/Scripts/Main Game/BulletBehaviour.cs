@@ -40,12 +40,20 @@ public class BulletBehaviour : MonoBehaviour, IPooledObject
                 instance.StoreInPool("bullet", gameObject);
                 return;
             }
-            CompanionAlocator.RemoveCompanion(CompanionAlocator.CheckForCompanion(ai.GetColor()));
+            int i = CompanionAlocator.CheckForCompanion(ai.GetColor());
+            if (i >= 0)
+            {
+                CompanionAlocator.RemoveCompanion(i);
+            }
+            else
+            {
+                OneLiners.Instance.GenerateLiner("Hit");
+            }
             MoraleTracker.Instance.DecreaseMorale(SystemConstants.DESTRUCTION_PENALTY);
             instance.StoreInPool("unit", collision.gameObject);
             instance.StoreInPool("bullet", gameObject);
             HitSound.Play();
-            OneLiners.Instance.GenerateLiner("Hit");
+            
         }
 
         if(collision.gameObject.tag == "Wall")

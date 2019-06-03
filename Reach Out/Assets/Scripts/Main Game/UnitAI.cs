@@ -26,16 +26,7 @@ public class UnitAI : MonoBehaviour, IPooledObject
     {
         rb = GetComponent<Rigidbody>();
         playerPosition = GameObject.FindGameObjectWithTag("Player").transform;
-        int aux = Random.Range(0, colors.Length);
-        unitImage.color = colors[aux];
-        currentTag = tags[aux];
-        gameObject.transform.rotation = Quaternion.identity;
-        exclamation.SetActive(true);
-        Vector3 parentPos = transform.position;
-        parentPos.z += 3;
-        parentPos.y += 2.5f;
-        exclamation.transform.position = parentPos;
-        isCompanion = false;
+        OnObjectSpawn();
     }
 
     // Update is called once per frame

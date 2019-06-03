@@ -7,6 +7,9 @@ using FMODUnity;
 
 public class OneLiners : MonoBehaviour
 {
+    private float coodownTime = 4f;
+    private float count;
+    private bool canSpeak = true;
     [System.Serializable]
     public class Liner
     {
@@ -53,23 +56,35 @@ public class OneLiners : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (!canSpeak)
+        {
+            count += Time.deltaTime;
+            if (count > coodownTime)
+            {
+                canSpeak = true;
+                count = 0;
+            }
+        }
     }
 
     public void GenerateLiner(string category)
     {
-        for(int i=0; i< liners.Count; i++)
+        if (canSpeak)
         {
-            if (liners[i].category.CompareTo(category) == 0)
+            for (int i = 0; i < liners.Count; i++)
             {
-                Liner selected = liners[i].liners[Random.Range(0, liners[i].liners.Count)];
-                portraitContainer.sprite = selected.Portrait;
-                portraitContainer.color = Color.white;
-                oneLinerContainer.GetComponent<TextMeshProUGUI>().text = selected.character + ": " + selected.text;
-                oneLinerContainer.transform.parent = oneLinerList.transform;
-                if (selected.hasVoice)
+                if (liners[i].category.CompareTo(category) == 0)
                 {
-                    selected.voice.Play();
+                    Liner selected = liners[i].liners[Random.Range(0, liners[i].liners.Count)];
+                    portraitContainer.sprite = selected.Portrait;
+                    portraitContainer.color = Color.white;
+                    oneLinerContainer.GetComponent<TextMeshProUGUI>().text = selected.character + ": " + selected.text;
+                    oneLinerContainer.transform.parent = oneLinerList.transform;
+                    if (selected.hasVoice)
+                    {
+                        selected.voice.Play();
+                    }
+                    canSpeak = false;
                 }
             }
         }
