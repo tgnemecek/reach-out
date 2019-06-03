@@ -8,7 +8,7 @@ public class MoraleTracker : MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI morale_display;
-    private int moraleValue = 500;
+    private int moraleValue = SystemConstants.INITIAL_POINTS;
 
     #region Singleton
 

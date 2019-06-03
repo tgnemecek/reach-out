@@ -14,7 +14,8 @@ public class SystemConstants : MonoBehaviour
     public static readonly float UNIT_SPEED = 6f;
 
     public static readonly int DESTRUCTION_PENALTY = 20;
-    public static readonly int CONECTION_BONUS = 50;
+    public static readonly int CONECTION_BONUS = 20;
+    public static readonly int INITIAL_POINTS = 100;
 
     public static int WINCONDITION = 4;
 }

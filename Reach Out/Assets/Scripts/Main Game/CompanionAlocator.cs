@@ -97,6 +97,12 @@ public class CompanionAlocator : MonoBehaviour
                 companionCount++;
                 if (companionCount >= SystemConstants.WINCONDITION)
                 {
+                    ocupiedPosition.Clear();
+                    companionList.Clear();
+                    companions.Clear();
+                    positionIndex = 0;
+                    connections.Clear();
+                    companionCount = 0;
                     SceneManager.LoadScene(3);
                 }
                 //Debug.Log("Index: " + positionIndex.ToString() + " ; Count: " + ocupiedPosition.Count.ToString());

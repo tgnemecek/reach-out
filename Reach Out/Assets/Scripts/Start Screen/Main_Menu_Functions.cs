@@ -17,7 +17,7 @@ public class Main_Menu_Functions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Screen.SetResolution(640, 480, false);
     }
 
     // Update is called once per frame
@@ -55,5 +55,10 @@ public class Main_Menu_Functions : MonoBehaviour
         {
             menu.Display();
         }
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
