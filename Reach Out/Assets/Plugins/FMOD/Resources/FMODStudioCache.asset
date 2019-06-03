@@ -1,5 +1,73 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8080108191990876113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-8079840076754750586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-7177145596718685883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-6995895663614440263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Intro/SpeechIndex
+  m_EditorClassIdentifier: 
+  Name: SpeechIndex
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 1
 --- !u!114 &-5234085406504672793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17,6 +85,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 1
+--- !u!114 &-4450807227730280742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-3733771517681831160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,6 +148,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &-3143224248153380315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-2407856049687222067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,6 +188,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 174545
+--- !u!114 &-1896684831495065939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-1732355061255857859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -195,6 +314,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 250
+--- !u!114 &-74957025706533100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,14 +354,15 @@ MonoBehaviour:
   - {fileID: 2792852980851648231}
   - {fileID: -443022756840298453}
   - {fileID: 1618512020276332537}
+  - {fileID: 6007797241823878125}
   EditorParameters:
-  - {fileID: -1246494435320605544}
-  - {fileID: -5234085406504672793}
+  - {fileID: 7072497700777274488}
+  - {fileID: 6928839701037344638}
   MasterBanks:
   - {fileID: 7402312428333099028}
   StringsBanks:
   - {fileID: 7090994474549764815}
-  stringsBankWriteTime: 636951066782358085
+  stringsBankWriteTime: 636951841291456885
   cacheVersion: 3
 --- !u!114 &993820818319448069
 MonoBehaviour:
@@ -269,7 +406,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 7898157476225368668}
   MinDistance: 0
   MaxDistance: 0
   Length: 43636
@@ -336,6 +474,23 @@ MonoBehaviour:
   - Name: 
     Value: 2191008
   Exists: 1
+--- !u!114 &2267338937484359328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &2714983817420734000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -491,6 +646,46 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2000
+--- !u!114 &6007797241823878125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/Intro
+  guid: 3d5da1408adf38409ddac20d887b429f
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 25500
+--- !u!114 &6065858288138909018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &6307776285313751321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,6 +709,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 174545
+--- !u!114 &6928839701037344638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &7072497700777274488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &7090994474549764815
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,11 +757,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\Unity Projects\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.strings.bank
   SubDir: 
-  lastModified: 636951066782358085
+  lastModified: 636951841291456885
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1336
+    Value: 1416
   Exists: 1
 --- !u!114 &7402312428333099028
 MonoBehaviour:
@@ -548,11 +777,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\Unity Projects\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.bank
   SubDir: 
-  lastModified: 636951066782298117
+  lastModified: 636951841291386909
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 2007744
+    Value: 2311776
+  Exists: 1
+--- !u!114 &7898157476225368668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
   Exists: 1
 --- !u!114 &9131774073933344841
 MonoBehaviour:

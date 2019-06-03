@@ -10,7 +10,6 @@ public class BulletSpawner : MonoBehaviour
     private Transform spawnPoint;
     private ObjectPooler instancer;
     private float counter;
-	  public GameObject AUDIO_Gun;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +25,7 @@ public class BulletSpawner : MonoBehaviour
         {
             counter = 0f;
             instancer.SpawnFromPool("bullet", spawnPoint.transform.position, transform.rotation);
-			      AUDIO_Gun.GetComponent<FMODUnity.StudioEventEmitter>().Play();
+			      GetComponent<FMODUnity.StudioEventEmitter>().Play();
         }
     }
 
