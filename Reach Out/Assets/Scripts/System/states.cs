@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 public interface State
 {
@@ -95,7 +97,7 @@ public class FadeInState: LongState
         fadePanelColor.a = 0;
         fadePanel.color = fadePanelColor;
         NextSubState();
-        return nextState;
+        return this.nextState;
     }
 
     public void SetNextState(State nextState)
@@ -166,3 +168,298 @@ public class FadeOutState: LongState
 
 //---- MoveObject State
 
+public class ObjectTranslateState: LongState
+{
+    private GameObject toTranslate;
+    private Transform target;
+    private State nextState;
+    private float translationSpeed;
+    private float count = 0f;
+
+    public ObjectTranslateState(GameObject toTranslate, Transform target, float translationSpeed)
+    {
+        this.toTranslate = toTranslate;
+        this.target = target;
+        this.translationSpeed = translationSpeed;
+        this.nextState = null;
+    }
+
+    public ObjectTranslateState(GameObject toTranslate, Transform target, float translationSpeed, State nextState)
+    {
+        this.toTranslate = toTranslate;
+        this.target = target;
+        this.translationSpeed = translationSpeed;
+        this.nextState = nextState;
+    }
+
+    public override State During()
+    {
+        count += Time.deltaTime;
+        //toTranslate.transform.position = Vector3.MoveTowards(toTranslate.transform.position, target.position, translationSpeed * Time.deltaTime);
+        toTranslate.transform.position = Vector3.Lerp(toTranslate.transform.position, target.position, count / translationSpeed);
+        if (Vector3.Distance(toTranslate.transform.position, target.position) < 0.1)
+        {
+            NextSubState();
+            return this;
+        }
+        return this;
+    }
+
+    public override State Finish()
+    {
+        return nextState;
+    }
+
+    public override State Start()
+    {
+        NextSubState();
+        return this;
+    }
+
+    public void SetNextState(State nextState)
+    {
+        this.nextState = nextState;
+    }
+}
+
+//---- Set Object Position
+
+public class SetObjectPositionSTate: State
+{
+    GameObject toPosition;
+    Transform target;
+    State nextState;
+
+    public SetObjectPositionSTate(GameObject toPosition, Transform target)
+    {
+        this.toPosition = toPosition;
+        this.target = target;
+        this.nextState = null;
+    }
+
+    public SetObjectPositionSTate(GameObject toPosition, Transform target, State nextState)
+    {
+        this.toPosition = toPosition;
+        this.target = target;
+        this.nextState = nextState;
+    }
+
+    public State Run()
+    {
+        toPosition.transform.position = target.position;
+        return nextState;
+    }
+
+    public void SetNextState(State nextState)
+    {
+        this.nextState = nextState;
+    }
+}
+
+//---- Waiting State
+
+public class WaitState: LongState
+{
+    private float waitTime;
+    private float count = 0f;
+    private State nextState;
+
+    public WaitState(float waitTime)
+    {
+        this.waitTime = waitTime;
+        this.nextState = null;
+    }
+
+    public WaitState(float waitTime, State nextState)
+    {
+        this.waitTime = waitTime;
+        this.nextState = null;
+    }
+
+    public override State During()
+    {
+        count = count + Time.deltaTime;
+        if (count >= waitTime)
+        {
+            NextSubState();
+        }
+        return this;
+    }
+
+    public override State Finish()
+    {
+        Debug.Log("wait went to the next state");
+        count = 0;
+        return nextState;
+    }
+
+    public override State Start()
+    {
+        count = 0;
+        NextSubState();
+        return this;
+    }
+
+    public void SetNextState(State nextState)
+    {
+        this.nextState = nextState;
+    }
+}
+
+//---- Fade UI in
+
+public class FadeUIInState: LongState
+{
+    private CanvasGroup toTransition;
+    private float transitionTime;
+    private float count = 0;
+    private State nextState;
+
+    public FadeUIInState(CanvasGroup toTransition, float transitionTime)
+    {
+        this.toTransition = toTransition;
+        this.transitionTime = transitionTime;
+        this.nextState = null;
+    }
+
+    public FadeUIInState(CanvasGroup toTransition, float transitionTime, State nextState)
+    {
+        this.toTransition = toTransition;
+        this.transitionTime = transitionTime;
+        this.nextState = nextState;
+    }
+
+    public override State During()
+    {
+        count = count + Time.deltaTime;
+        toTransition.alpha = count/transitionTime;
+        if (count >= transitionTime)
+        {
+            NextSubState();
+        }
+        return this;
+    }
+
+    public override State Finish()
+    {
+        count = 0;
+        toTransition.alpha = 1;
+        NextSubState();
+        return nextState;
+    }
+
+    public override State Start()
+    {
+        count =0;
+        toTransition.alpha = 0;
+        NextSubState();
+        return this;
+    }
+
+    public void SetNextState(State nextState)
+    {
+        this.nextState = nextState;
+    }
+}
+
+//---- Fade UI out
+
+public class FadeUIOutState : LongState
+{
+    private CanvasGroup toTransition;
+    private float transitionTime;
+    private float count = 0;
+    private State nextState;
+
+    public FadeUIOutState(CanvasGroup toTransition, float transitionTime)
+    {
+        this.toTransition = toTransition;
+        this.transitionTime = transitionTime;
+        this.nextState = null;
+    }
+
+    public FadeUIOutState(CanvasGroup toTransition, float transitionTime, State nextState)
+    {
+        this.toTransition = toTransition;
+        this.transitionTime = transitionTime;
+        this.nextState = nextState;
+    }
+
+    public override State During()
+    {
+        count = count + Time.deltaTime;
+        toTransition.alpha = 1 - count / transitionTime;
+        if (count >= transitionTime)
+        {
+            NextSubState();
+        }
+        return this;
+    }
+
+    public override State Finish()
+    {
+        count = 0;
+        toTransition.alpha = 0;
+        NextSubState();
+        return nextState;
+    }
+
+    public override State Start()
+    {
+        count = 0;
+        toTransition.alpha = 1;
+        NextSubState();
+        return this;
+    }
+
+    public void SetNextState(State nextState)
+    {
+        this.nextState = nextState;
+    }
+}
+
+//---- Change Text content
+
+public class TextChangeState: State
+{
+    TextMeshProUGUI toChange;
+    string newContent;
+    State nextState;
+
+    public TextChangeState(TextMeshProUGUI toChange, string newContent)
+    {
+        this.toChange = toChange;
+        this.newContent = newContent;
+        this.nextState = null;
+    }
+
+    public TextChangeState(TextMeshProUGUI toChange, string newContent, State nextState)
+    {
+        this.toChange = toChange;
+        this.newContent = newContent;
+        this.nextState = nextState;
+    }
+
+    public State Run()
+    {
+        toChange.text = newContent;
+        return nextState;
+    }
+
+    public void SetNextState(State nextState)
+    {
+        this.nextState = nextState;
+
+    }
+}
+
+//---- To the actual Level state
+
+public class NextLevelState : State
+{
+    public State Run()
+    {
+        SceneManager.LoadScene(SceneManager.sceneCount + 1);
+        return null;
+    }
+}

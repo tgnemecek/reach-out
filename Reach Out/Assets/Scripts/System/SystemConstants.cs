@@ -7,7 +7,7 @@ public class SystemConstants : MonoBehaviour
     public static readonly float SCREEN_BOTTOM = -4.5f;
     public static readonly float SCREEN_TOP = 4.5f;
     public static readonly float SCREEN_LEFT = -6f;
-    public static readonly float SCREEN_RIGHT = 6f;
+    public static readonly float SCREEN_RIGHT = 2.3f;
 
     public static readonly float BULLET_SPEED = 10f;
     public static readonly float PLAYER_SPEED = 5f;
@@ -16,5 +16,5 @@ public class SystemConstants : MonoBehaviour
     public static readonly int DESTRUCTION_PENALTY = 20;
     public static readonly int CONECTION_BONUS = 50;
 
-    public static readonly int WINCONDITION = 5;
+    public static int WINCONDITION = 4;
 }

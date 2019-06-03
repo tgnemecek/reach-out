@@ -7,6 +7,9 @@ TagManager:
   - Unit
   - Bullet
   - Wall
+  - easy
+  - medium
+  - hard
   layers:
   - Default
   - TransparentFX
