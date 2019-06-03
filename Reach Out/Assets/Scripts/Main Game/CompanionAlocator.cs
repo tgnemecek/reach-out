@@ -97,12 +97,7 @@ public class CompanionAlocator : MonoBehaviour
                 companionCount++;
                 if (companionCount >= SystemConstants.WINCONDITION)
                 {
-                    ocupiedPosition.Clear();
-                    companionList.Clear();
-                    companions.Clear();
-                    positionIndex = 0;
-                    connections.Clear();
-                    companionCount = 0;
+                    ClearAlocator();
                     SceneManager.LoadScene(3);
                 }
                 //Debug.Log("Index: " + positionIndex.ToString() + " ; Count: " + ocupiedPosition.Count.ToString());
@@ -154,5 +149,15 @@ public class CompanionAlocator : MonoBehaviour
         ObjectPooler.Instance.StoreInPool("unit", noLongerCompanion);
         ObjectPooler.Instance.StoreInPool("line", noConnection);
         companionCount--;
+    }
+
+    public static void ClearAlocator()
+    {
+        ocupiedPosition.Clear();
+        companionList.Clear();
+        companions.Clear();
+        positionIndex = 0;
+        connections.Clear();
+        companionCount = 0;
     }
 }

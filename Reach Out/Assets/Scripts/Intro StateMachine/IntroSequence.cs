@@ -6,12 +6,13 @@ using TMPro;
 
 public class IntroSequence : MonoBehaviour
 {
-
+    private bool hasSkipped = false;
     string[] narrationText =
     {
         "...a violent and ruthless mercenary who would do anything to get the job done.",
         "However, one day, you realized that you like people and want to get to know them better in a friendly sort of way.",
-        "This was also the day that your ship’s gun simply wouldn’t stop firing."
+        "This was also the day that your ship’s gun simply wouldn’t stop firing.",
+        "Reach out"
     };
 
     State currentState;
@@ -31,6 +32,11 @@ public class IntroSequence : MonoBehaviour
     CanvasGroup secondImages;
     [SerializeField]
     CanvasGroup thirdImages;
+    [SerializeField]
+    CanvasGroup fourthImage;
+    [SerializeField]
+    CanvasGroup textAlpha;
+
 
     FadeInState start;
     WaitState LetTextStay1;
@@ -65,6 +71,14 @@ public class IntroSequence : MonoBehaviour
     SetObjectPositionSTate setFinalNarrationPosition;
     FadeInState showFinalNarration;
     WaitState letFinalNarrationStay;
+
+    FadeUIOutState hideFinalText;
+    FadeUIInState showInstruction;
+    WaitState letInstructionsStay;
+    FadeUIOutState hideInstructions;
+    TextChangeState SetFinalInstruction;
+    FadeUIInState showFinalInstruction;
+    WaitState letFinalInstructionStay;
 
     FadeOutState hideToNextLevel;
     NextLevelState toGame;
@@ -106,6 +120,14 @@ public class IntroSequence : MonoBehaviour
         showFinalNarration = new FadeInState(fadePannel, 0.3f);
         letFinalNarrationStay = new WaitState(2);
 
+        hideFinalText = new FadeUIOutState(textAlpha, 0.3f);
+        showInstruction = new FadeUIInState(fourthImage, 0.3f);
+        letInstructionsStay = new WaitState(1);
+        hideInstructions = new FadeUIOutState(fourthImage, 0.3f);
+        SetFinalInstruction = new TextChangeState(narration, narrationText[3]);
+        showFinalInstruction = new FadeUIInState(textAlpha, 0.3f);
+        letFinalInstructionStay = new WaitState(2);
+
         hideToNextLevel = new FadeOutState(fadePannel, 0.6f);
         toGame = new NextLevelState();
 
@@ -141,9 +163,18 @@ public class IntroSequence : MonoBehaviour
         hideThirdImages.SetNextState(changeToFinalNarration);
         changeToFinalNarration.SetNextState(setFinalNarrationPosition);
         setFinalNarrationPosition.SetNextState(showFinalNarration);
-
         showFinalNarration.SetNextState(letFinalNarrationStay);
-        letFinalNarrationStay.SetNextState(hideToNextLevel);
+        letFinalNarrationStay.SetNextState(hideFinalText);
+
+        hideFinalText.SetNextState(showInstruction);
+        showInstruction.SetNextState(letInstructionsStay);
+        letInstructionsStay.SetNextState(hideInstructions);
+        hideInstructions.SetNextState(SetFinalInstruction);
+        SetFinalInstruction.SetNextState(showFinalInstruction);
+        showFinalInstruction.SetNextState(letFinalInstructionStay);
+        letFinalInstructionStay.SetNextState(hideToNextLevel);
+
+        
         hideToNextLevel.SetNextState(toGame);
 
         currentState = start;

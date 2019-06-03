@@ -45,6 +45,7 @@ public class MoraleTracker : MonoBehaviour
         moraleValue -= val;
         if(moraleValue <= 0)
         {
+            CompanionAlocator.ClearAlocator();
             SceneManager.LoadScene(4);
         }
         morale_display.text = "Atitude: " + moraleValue.ToString();
