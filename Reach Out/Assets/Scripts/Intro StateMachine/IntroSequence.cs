@@ -14,7 +14,7 @@ public class IntroSequence : MonoBehaviour
         "This was also the day that your ship’s gun simply wouldn’t stop firing.",
         "Reach out"
     };
-
+    private FMOD.Studio.EventInstance audioEventInstance;
     State currentState;
     [SerializeField]
     Image fadePannel;
@@ -86,8 +86,11 @@ public class IntroSequence : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioEventInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Sound Effects/Speech/Intro");
+        audioEventInstance.start();
+
         //Set states up
-        start = new FadeInState(fadePannel, 0.6f);
+        start = new FadeInState(fadePannel, 0.6f, audioEventInstance);
         LetTextStay1 = new WaitState(2);
         moveTextDown = new ObjectTranslateState(narration.gameObject, bottomTarget, 5);
         ShowFirstImages = new FadeUIInState(firstImages, 0.6f);
@@ -98,7 +101,7 @@ public class IntroSequence : MonoBehaviour
         ResetNarrationPosition = new SetObjectPositionSTate(narration.gameObject, topTarget);
 
 
-        showSecondNarration = new FadeInState(fadePannel, 0.3f);
+        showSecondNarration = new FadeInState(fadePannel, 0.3f, audioEventInstance);
         letNarrationStay2 = new WaitState(2);
         moveSecondNarrationDown = new ObjectTranslateState(narration.gameObject, bottomTarget, 5);
         showSecondImages = new FadeUIInState(secondImages, 0.3f);
@@ -108,7 +111,7 @@ public class IntroSequence : MonoBehaviour
         changeToThirdNarration = new TextChangeState(narration, narrationText[1]);
         ResetNarrationPosition2 = new SetObjectPositionSTate(narration.gameObject, topTarget);
 
-        showThirdNarration = new FadeInState(fadePannel, 0.3f);
+        showThirdNarration = new FadeInState(fadePannel, 2.0f, audioEventInstance);
         letNarrationStay3 = new WaitState(2);
         moveThirdNarrationDown = new ObjectTranslateState(narration.gameObject, bottomTarget, 5);
         showThirdImages = new FadeUIInState(thirdImages, 0.3f);
@@ -117,10 +120,10 @@ public class IntroSequence : MonoBehaviour
         hideThirdImages = new FadeUIOutState(thirdImages, 0.01f);
         changeToFinalNarration = new TextChangeState(narration, narrationText[2]);
         setFinalNarrationPosition = new SetObjectPositionSTate(narration.gameObject, midTarget);
-        showFinalNarration = new FadeInState(fadePannel, 0.3f);
+        showFinalNarration = new FadeInState(fadePannel, 2.0f, audioEventInstance);
         letFinalNarrationStay = new WaitState(2);
 
-        hideFinalText = new FadeUIOutState(textAlpha, 0.3f);
+        hideFinalText = new FadeUIOutState(textAlpha, 2.0f);
         showInstruction = new FadeUIInState(fourthImage, 0.3f);
         letInstructionsStay = new WaitState(1);
         hideInstructions = new FadeUIOutState(fourthImage, 0.3f);

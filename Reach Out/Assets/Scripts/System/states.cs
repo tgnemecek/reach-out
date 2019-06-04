@@ -54,18 +54,23 @@ public class FadeInState: LongState
     private Image fadePanel;
     private float fadeTime;
     private float counter = 0f;
+    // AUDIO VARIABLES
+    private FMOD.Studio.EventInstance audioEventInstance;
+    private GameObject audioIntroLines = GameObject.Find("AUDIO_IntroLines");
 
-    public FadeInState(Image fadePanel, float fadeTime)
+    public FadeInState(Image fadePanel, float fadeTime, FMOD.Studio.EventInstance audioEventInstance)
     {
         this.fadePanel = fadePanel;
         this.fadeTime = fadeTime;
+        this.audioEventInstance = audioEventInstance;
         this.nextState = null;
     }
 
-    public FadeInState(Image fadePanel, float fadeTime, State nextState)
+    public FadeInState(Image fadePanel, float fadeTime, FMOD.Studio.EventInstance audioEventInstance, State nextState)
     {
         this.fadePanel = fadePanel;
         this.fadeTime = fadeTime;
+        this.audioEventInstance = audioEventInstance;
         this.nextState = nextState;
     }
 
@@ -74,6 +79,8 @@ public class FadeInState: LongState
         Color fadePanelColor = fadePanel.color;
         fadePanelColor.a = 1;
         fadePanel.color = fadePanelColor;
+        audioEventInstance.triggerCue();
+
         NextSubState();
         return this;
     }

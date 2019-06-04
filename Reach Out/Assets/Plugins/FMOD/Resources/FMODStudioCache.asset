@@ -1,5 +1,45 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9077126972913402131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Connection
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Connection
+  guid: 19574c3727706647b3283da84c3b2ca3
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
+--- !u!114 &-9044553021065722719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &-8816108478135540325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23,6 +63,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 16363
+--- !u!114 &-8600355364282574896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/ShotAt
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/ShotAt
+  guid: eea81c64ec761a4b9313558be661ec1f
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
+--- !u!114 &-8402702558587111352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Strength
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Strength
+  guid: 235eabd2b6f4d64faa8fe47ca8fbae84
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
 --- !u!114 &-8200873862898622108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,13 +146,76 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\Anderson\Documents\test\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.strings.bank
   SubDir: 
-  lastModified: 636951741948678835
+  lastModified: 636951921080000000
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1416
+    Value: 2610
   Exists: 1
+--- !u!114 &-7671945303637356280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Ow
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Ow
+  guid: 3d3c5f6dde37004c894d273a06e0af30
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1093
+--- !u!114 &-7446161248568994612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Request
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Request
+  guid: c238e9c5e453de45863c8baa86ab6125
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2187
 --- !u!114 &-7380742019280534999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-6939380512585617840
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,6 +318,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 16363
+--- !u!114 &-6134021207272948943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/LeftOurParty
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/LeftOurParty
+  guid: 7d3448b148e96043a0293680cb49b74c
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3656
 --- !u!114 &-6012366806566499446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +364,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 25500
+--- !u!114 &-5899100210766491247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/LosingFriends
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/LosingFriends
+  guid: be5dc8ecd96e1f428a183521f29b5e1a
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3250
+--- !u!114 &-5867702823234199584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Incremented
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Incremented
+  guid: 5b58406dd6a30f4cabe2ecf003670724
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3062
 --- !u!114 &-5539243133660087981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,12 +424,58 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: C:\Users\Anderson\Documents\test\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.bank
   SubDir: 
-  lastModified: 636951741948668882
+  lastModified: 636951921080000000
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 2311776
+    Value: 3003232
   Exists: 1
+--- !u!114 &-5326469369527017589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/OutOfLife
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/OutOfLife
+  guid: e4f47c92d1f6ff469c6f5f06b7cf32ca
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4125
+--- !u!114 &-5184507508962058128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Decremented
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Decremented
+  guid: 88099e88bcd97641ab30e99098655549
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2625
 --- !u!114 &-5125966269490627930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +500,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 43636
+--- !u!114 &-4852349386589528083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Sensibilities
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Sensibilities
+  guid: 78ba7c3fbfef444c82db8620d228e7ee
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
 --- !u!114 &-4539022190017439713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +540,52 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 1
+--- !u!114 &-4007012444311858768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/GetAlong
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/GetAlong
+  guid: bf55c4c5718a294b81eb61537c76745d
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2187
+--- !u!114 &-3837079132217982607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Thing
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Thing
+  guid: 2d8ce903b40e0a44859f468cbf1c7141
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
 --- !u!114 &-3814994058170589265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,6 +649,75 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 250
+--- !u!114 &-1185141101778756149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Oops
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Oops
+  guid: d2d45e9332632547bc8b83e41bed85df
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1312
+--- !u!114 &-890027668242819962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/NoMore
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/NoMore
+  guid: bb8e8d19acfb8d4ab210f142475f7bc2
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2781
+--- !u!114 &-503153015114887805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/CanGetAlong
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/CanGetAlong
+  guid: 068a7bcd8e99bd408ab133a29288f4f6
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2750
 --- !u!114 &-478009625466781809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +742,23 @@ MonoBehaviour:
   MaxDistance: 0
   Length: 89454
 --- !u!114 &-306399810252273785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &-176530936575288964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -414,21 +833,93 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 8179161543224169810}
   - {fileID: -6012366806566499446}
-  - {fileID: -6449492968231148279}
   - {fileID: -8816108478135540325}
   - {fileID: 5384777854775374025}
   - {fileID: 1840546214047699740}
   - {fileID: -478009625466781809}
   - {fileID: 2714468275558480484}
+  - {fileID: -503153015114887805}
+  - {fileID: 1279264173631778136}
+  - {fileID: -9077126972913402131}
+  - {fileID: 3341006018310738923}
+  - {fileID: -8402702558587111352}
+  - {fileID: -3837079132217982607}
+  - {fileID: 706766429054862605}
+  - {fileID: -7671945303637356280}
+  - {fileID: -5867702823234199584}
+  - {fileID: 6052787552619554732}
+  - {fileID: 5967662478239146682}
+  - {fileID: 8695119452289189274}
+  - {fileID: -4852349386589528083}
+  - {fileID: 7803156707206480312}
+  - {fileID: -6134021207272948943}
+  - {fileID: 5175804253700407706}
+  - {fileID: -5184507508962058128}
+  - {fileID: 2804599968488800281}
+  - {fileID: 2141764730641733457}
+  - {fileID: -890027668242819962}
+  - {fileID: -5899100210766491247}
+  - {fileID: -4007012444311858768}
+  - {fileID: -7446161248568994612}
+  - {fileID: -1185141101778756149}
+  - {fileID: 3617151298315662366}
+  - {fileID: -5326469369527017589}
+  - {fileID: -8600355364282574896}
   EditorParameters:
-  - {fileID: 3526391678392350786}
-  - {fileID: -7380742019280534999}
+  - {fileID: -176530936575288964}
+  - {fileID: -6939380512585617840}
   MasterBanks:
   - {fileID: -5539243133660087981}
   StringsBanks:
   - {fileID: -8185712819898388132}
-  stringsBankWriteTime: 636951741948678835
+  stringsBankWriteTime: 636951921080000000
   cacheVersion: 3
+--- !u!114 &706766429054862605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Merrier
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Merrier
+  guid: 342a74728c40944bb7135c5d43434ce0
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2218
+--- !u!114 &1279264173631778136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/PieceOfMe
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/PieceOfMe
+  guid: 0e8b74aee22a5141bcf4850e74df1f43
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
 --- !u!114 &1747181009488001368
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -486,6 +977,29 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &2141764730641733457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/MakeFriends
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/MakeFriends
+  guid: b1114a90d8b73f45818d2d34b9ae2df9
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4250
 --- !u!114 &2714468275558480484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -506,10 +1020,56 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 8733298497300355637}
+  - {fileID: -9044553021065722719}
   MinDistance: 0
   MaxDistance: 0
   Length: 43636
+--- !u!114 &2804599968488800281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Words
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Words
+  guid: b10cf17625801149a56984245a21fb1b
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2293
+--- !u!114 &3341006018310738923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Tricks
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Tricks
+  guid: 1bc25afcd91148428e648b76025d1165
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2218
 --- !u!114 &3508003378929009109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,6 +1127,29 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &3617151298315662366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Dangerous
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Dangerous
+  guid: e0ea3ad8e4232948bf1b2ef386869320
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2610
 --- !u!114 &3634351713314429276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -667,6 +1250,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &5175804253700407706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Aie
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Aie
+  guid: 80d09aa4293de645a26ccee33c426ca5
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1562
 --- !u!114 &5384777854775374025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,6 +1296,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &5967662478239146682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/OutOfHere
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/OutOfHere
+  guid: 63364a250f334e4aa76998733f92f1f8
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
+--- !u!114 &6052787552619554732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/LowerSFX
+  m_EditorClassIdentifier: 
+  Path: snapshot:/LowerSFX
+  guid: 5d08768183d74845a89e5dba76b25510
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6532462265603531743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,6 +1385,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 89454
+--- !u!114 &7803156707206480312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/LowerAllButSpeech
+  m_EditorClassIdentifier: 
+  Path: snapshot:/LowerAllButSpeech
+  guid: 799ef469113b944182feaa092a7b84fe
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &7824424480830484167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,6 +1454,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 250
+--- !u!114 &8695119452289189274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/LetsDoThis
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/LetsDoThis
+  guid: 6af38c51eb40b14b9750321e909e9dea
+  Banks:
+  - {fileID: -5539243133660087981}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
 --- !u!114 &8733298497300355637
 MonoBehaviour:
   m_ObjectHideFlags: 0

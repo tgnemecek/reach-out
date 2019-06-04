@@ -7,6 +7,7 @@ using FMODUnity;
 
 public class OneLiners : MonoBehaviour
 {
+    private FMOD.Studio.EventInstance audioEventInstance;
     private float coodownTime = 4f;
     private float count;
     private bool canSpeak = true;
@@ -16,7 +17,7 @@ public class OneLiners : MonoBehaviour
         public string character;
         public string text;
         public Sprite Portrait;
-        public StudioEventEmitter voice;
+        public string name;
         public bool hasVoice;
     }
 
@@ -82,7 +83,8 @@ public class OneLiners : MonoBehaviour
                     oneLinerContainer.transform.parent = oneLinerList.transform;
                     if (selected.hasVoice)
                     {
-                        selected.voice.Play();
+                        audioEventInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Sound Effects/Speech/One Liners/" + selected.name);
+                        audioEventInstance.start();
                     }
                     canSpeak = false;
                 }

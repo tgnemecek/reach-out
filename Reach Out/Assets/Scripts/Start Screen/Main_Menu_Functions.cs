@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class Main_Menu_Functions : MonoBehaviour
 {
+    private FMODUnity.StudioEventEmitter audioEmitter;
+    FMOD.Studio.PARAMETER_DESCRIPTION musicVolume;
     [SerializeField]
     MenuScrolling menu;
     [SerializeField]
@@ -18,6 +20,9 @@ public class Main_Menu_Functions : MonoBehaviour
     void Start()
     {
         //Screen.SetResolution(640, 480, false);
+        audioEmitter = GameObject.Find("AUDIO_Music").GetComponent<FMODUnity.StudioEventEmitter>();
+        FMOD.Studio.EventDescription eventDesc = FMODUnity.RuntimeManager.GetEventDescription(audioEmitter.Event);
+        eventDesc.getParameterDescriptionByName("Volume", out musicVolume);
     }
 
     // Update is called once per frame
@@ -43,7 +48,7 @@ public class Main_Menu_Functions : MonoBehaviour
             {
                 SystemConstants.WINCONDITION = 5;
             }
-            
+            audioEmitter.EventInstance.setParameterByID(musicVolume.id, 0.7f);
             SceneManager.LoadScene(1);
         }
     }
