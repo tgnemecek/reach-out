@@ -1,5 +1,90 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9083044546243458975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-8596306340684932171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-8490325771850739458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-8170698539912611700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-8146315021774230624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-8080108191990876113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34,6 +119,46 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &-7391570007515595540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Dangerous
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Dangerous
+  guid: e0ea3ad8e4232948bf1b2ef386869320
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2610
+--- !u!114 &-7183953709936232802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &-7177145596718685883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,7 +193,201 @@ MonoBehaviour:
   Max: 4
   Default: 0
   Exists: 1
+--- !u!114 &-6869651565624340213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &-6777652658423897827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &-6595662176221723150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/MakeFriends
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/MakeFriends
+  guid: b1114a90d8b73f45818d2d34b9ae2df9
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4250
+--- !u!114 &-6575216675624229440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Ow
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Ow
+  guid: 3d3c5f6dde37004c894d273a06e0af30
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1093
+--- !u!114 &-6040826840542620902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/ShotAt
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/ShotAt
+  guid: eea81c64ec761a4b9313558be661ec1f
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
+--- !u!114 &-5568632292102895162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-5373396227386588645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Sorry
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Sorry
+  guid: c7119f7816184f4b8de9839941c0fd70
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1187
 --- !u!114 &-5234085406504672793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-5122767575779900085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-5061214319120776568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-5017102777307073684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,6 +421,46 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &-4050018499660979602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &-3772395850458042518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/GetAlong
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/GetAlong
+  guid: bf55c4c5718a294b81eb61537c76745d
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2187
 --- !u!114 &-3733771517681831160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -148,6 +507,69 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &-3552750138290153939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-3342419860066877088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Words
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Words
+  guid: b10cf17625801149a56984245a21fb1b
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2293
+--- !u!114 &-3149944283712397850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/PieceOfMe
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/PieceOfMe
+  guid: 0e8b74aee22a5141bcf4850e74df1f43
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
 --- !u!114 &-3143224248153380315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,6 +587,63 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &-3087193059066077169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-3075356691077516334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/LetsDoThis
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/LetsDoThis
+  guid: 6af38c51eb40b14b9750321e909e9dea
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
+--- !u!114 &-2873372911226188760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &-2407856049687222067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,6 +667,92 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 174545
+--- !u!114 &-2394651994340927599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-2012972918675938333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/LosingFriends
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/LosingFriends
+  guid: be5dc8ecd96e1f428a183521f29b5e1a
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3250
+--- !u!114 &-1988837042773127242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Incremented
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Incremented
+  guid: 5b58406dd6a30f4cabe2ecf003670724
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3062
+--- !u!114 &-1956469260087423085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/LeftOurParty
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/LeftOurParty
+  guid: 7d3448b148e96043a0293680cb49b74c
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 3656
 --- !u!114 &-1896684831495065939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -245,6 +810,69 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &-1216492672750000162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &-999014681033806464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/CanGetAlong
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/CanGetAlong
+  guid: 068a7bcd8e99bd408ab133a29288f4f6
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2750
+--- !u!114 &-964176223182408451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Aie
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Aie
+  guid: 80d09aa4293de645a26ccee33c426ca5
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1562
 --- !u!114 &-564527360737442522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +919,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 89454
+--- !u!114 &-372050595194845748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-117084137752000820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -331,6 +976,29 @@ MonoBehaviour:
   Max: 1
   Default: 1
   Exists: 0
+--- !u!114 &-33500614952961214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/OutOfLife
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/OutOfLife
+  guid: e4f47c92d1f6ff469c6f5f06b7cf32ca
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4125
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,22 +1016,145 @@ MonoBehaviour:
   - {fileID: 7402312428333099028}
   EditorEvents:
   - {fileID: -117084137752000820}
-  - {fileID: 2714983817420734000}
   - {fileID: -564527360737442522}
   - {fileID: 5387579928748627737}
   - {fileID: 2792852980851648231}
   - {fileID: -443022756840298453}
   - {fileID: 1618512020276332537}
   - {fileID: 6007797241823878125}
+  - {fileID: 6852598583022047101}
+  - {fileID: 3383836727164506073}
+  - {fileID: -6575216675624229440}
+  - {fileID: -1988837042773127242}
+  - {fileID: 7632602485361138660}
+  - {fileID: 6616385321804548418}
+  - {fileID: -1956469260087423085}
+  - {fileID: -964176223182408451}
+  - {fileID: 8011923438690038598}
+  - {fileID: 613853691309658661}
+  - {fileID: -2012972918675938333}
+  - {fileID: -3772395850458042518}
+  - {fileID: 2365603433890687708}
+  - {fileID: -33500614952961214}
+  - {fileID: -999014681033806464}
+  - {fileID: 7381012323529579198}
+  - {fileID: 7177209239518396546}
+  - {fileID: 2409010705500982755}
+  - {fileID: -3075356691077516334}
+  - {fileID: -6040826840542620902}
+  - {fileID: -3149944283712397850}
+  - {fileID: 5342007297786820310}
+  - {fileID: 8553317694509636321}
+  - {fileID: -3342419860066877088}
+  - {fileID: -6595662176221723150}
+  - {fileID: 4807666314459194300}
+  - {fileID: -7391570007515595540}
   EditorParameters:
-  - {fileID: 7072497700777274488}
-  - {fileID: 6928839701037344638}
+  - {fileID: 1917771382269944300}
+  - {fileID: -9083044546243458975}
   MasterBanks:
   - {fileID: 7402312428333099028}
   StringsBanks:
   - {fileID: 7090994474549764815}
-  stringsBankWriteTime: 636951841291456885
+  stringsBankWriteTime: 636951921070212245
   cacheVersion: 3
+--- !u!114 &144074750964687213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &227518398989077128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &303413685454348433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Make Friends
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Make Friends
+  guid: b1114a90d8b73f45818d2d34b9ae2df9
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4250
+--- !u!114 &613853691309658661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/NoMore
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/NoMore
+  guid: bb8e8d19acfb8d4ab210f142475f7bc2
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2781
+--- !u!114 &756319033250263913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &993820818319448069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -407,7 +1198,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 7898157476225368668}
+  - {fileID: 2477805996572021133}
   MinDistance: 0
   MaxDistance: 0
   Length: 43636
@@ -434,6 +1225,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 174545
+--- !u!114 &1728921297013483429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
+--- !u!114 &1917771382269944300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &2022096260106944356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,6 +1278,23 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 1284
+  Exists: 1
+--- !u!114 &2146641434354545565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 1
 --- !u!114 &2262864630281434200
 MonoBehaviour:
@@ -491,6 +1333,86 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 0
+--- !u!114 &2365603433890687708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Request
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Request
+  guid: c238e9c5e453de45863c8baa86ab6125
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2187
+--- !u!114 &2383030826248382032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &2409010705500982755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Merrier
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Merrier
+  guid: 342a74728c40944bb7135c5d43434ce0
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2218
+--- !u!114 &2477805996572021133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &2714983817420734000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,6 +1459,63 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 16363
+--- !u!114 &3100146823056824818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &3383836727164506073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/LowerAllButSpeech
+  m_EditorClassIdentifier: 
+  Path: snapshot:/LowerAllButSpeech
+  guid: 799ef469113b944182feaa092a7b84fe
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3498053207948615381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 0
 --- !u!114 &3977869125824879039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,6 +1579,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 2181
+--- !u!114 &4281611360362022253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &4514726254776408457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -623,6 +1619,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 174545
+--- !u!114 &4807666314459194300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Oops
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Oops
+  guid: d2d45e9332632547bc8b83e41bed85df
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1312
+--- !u!114 &5342007297786820310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Tricks
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Tricks
+  guid: 1bc25afcd91148428e648b76025d1165
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2218
 --- !u!114 &5387579928748627737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -686,6 +1728,23 @@ MonoBehaviour:
   Max: 3
   Default: 0
   Exists: 1
+--- !u!114 &6199163444715459695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &6307776285313751321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,6 +1768,69 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 174545
+--- !u!114 &6480337903811994928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &6616385321804548418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Sensibilities
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Sensibilities
+  guid: 78ba7c3fbfef444c82db8620d228e7ee
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
+--- !u!114 &6852598583022047101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/LowerSFX
+  m_EditorClassIdentifier: 
+  Path: snapshot:/LowerSFX
+  guid: 5d08768183d74845a89e5dba76b25510
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &6928839701037344638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -757,12 +1879,75 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\Unity Projects\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.strings.bank
   SubDir: 
-  lastModified: 636951841291456885
+  lastModified: 636951921070212245
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 1416
+    Value: 2610
   Exists: 1
+--- !u!114 &7177209239518396546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Strength
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Strength
+  guid: 235eabd2b6f4d64faa8fe47ca8fbae84
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
+--- !u!114 &7216684629582336745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
+--- !u!114 &7381012323529579198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Connection
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Connection
+  guid: 19574c3727706647b3283da84c3b2ca3
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2562
 --- !u!114 &7402312428333099028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,12 +1962,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\Unity Projects\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.bank
   SubDir: 
-  lastModified: 636951841291386909
+  lastModified: 636951921070132293
   LoadResult: 0
   FileSizes:
   - Name: 
-    Value: 2311776
+    Value: 3003232
   Exists: 1
+--- !u!114 &7632602485361138660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/OutOfHere
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/OutOfHere
+  guid: 63364a250f334e4aa76998733f92f1f8
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
+--- !u!114 &7853760127682013184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &7898157476225368668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,6 +2024,86 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
+  Exists: 1
+--- !u!114 &8011923438690038598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Decremented
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Decremented
+  guid: 88099e88bcd97641ab30e99098655549
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2625
+--- !u!114 &8523026708546135414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &8553317694509636321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Sound Effects/Speech/One Liners/Thing
+  m_EditorClassIdentifier: 
+  Path: event:/Sound Effects/Speech/One Liners/Thing
+  guid: 2d8ce903b40e0a44859f468cbf1c7141
+  Banks:
+  - {fileID: 7402312428333099028}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
+--- !u!114 &8558830851346037345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
   Exists: 1
 --- !u!114 &9131774073933344841
 MonoBehaviour:

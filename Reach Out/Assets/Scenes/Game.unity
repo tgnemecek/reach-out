@@ -2283,132 +2283,127 @@ MonoBehaviour:
     - character: You
       text: "I can\u2019t stop this thing!"
       Portrait: {fileID: 21300000, guid: 92e18eb464f080649aacd3ae20b4fc34, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Thing
+      hasVoice: 1
     - character: You
       text: Oops!
       Portrait: {fileID: 21300000, guid: 92e18eb464f080649aacd3ae20b4fc34, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Oops
+      hasVoice: 1
     - character: Ship AI
       text: "Boss, that\u2019s no way to make friends!"
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: MakeFriends
+      hasVoice: 1
     - character: Ship AI
       text: Boss, is this what you want out of life?
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: OutOfLife
+      hasVoice: 1
     - character: Ship
       text: You want a piece a me, boy?!
       Portrait: {fileID: 21300000, guid: 28500a3dfeb363341969b1a004ee3e9d, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: PieceOfMe
+      hasVoice: 1
     - character: Ship
       text: "Let\u2019s get dangerous!"
       Portrait: {fileID: 21300000, guid: aff5d4d9f7e96e9458b7c3efd983c35b, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Dangerous
+      hasVoice: 1
     - character: Ship
       text: Back to your old tricks, eh?
       Portrait: {fileID: 21300000, guid: 3caa8661d9b2d91438be118ec2caa154, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Tricks
+      hasVoice: 1
     - character: Ship
       text: "Them\u2019s fightin\u2019 words!"
       Portrait: {fileID: 21300000, guid: 189b5796d0b4c6849b9194bc14749421, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Words
+      hasVoice: 1
   - category: Fled
     liners:
     - character: You
-      text: But we were getting along so well!
+      text: Can't we all just get along?
       Portrait: {fileID: 21300000, guid: 92e18eb464f080649aacd3ae20b4fc34, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: GetAlong
+      hasVoice: 1
     - character: Ship AI
       text: "Boss, we\u2019re losing friends here!"
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: LosingFriends
+      hasVoice: 1
     - character: Ship AI
       text: Boss, someone left our party!
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: LeftOurParty
+      hasVoice: 1
     - character: Ship AI
       text: Friend count decremented!
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Decremented
+      hasVoice: 1
     - character: Ship
-      text: I thought we were friends!
+      text: You offended my sensibilities
       Portrait: {fileID: 21300000, guid: 3caa8661d9b2d91438be118ec2caa154, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Sensibilities
+      hasVoice: 1
     - character: Ship
-      text: Betrayal!
+      text: No more... no more!
       Portrait: {fileID: 21300000, guid: 189b5796d0b4c6849b9194bc14749421, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: NoMore
+      hasVoice: 1
     - character: Ship
-      text: "I don\u2019t like you!"
+      text: That's it! I'm out of here!
       Portrait: {fileID: 21300000, guid: 28500a3dfeb363341969b1a004ee3e9d, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: OutOfHere
+      hasVoice: 1
     - character: Ship
-      text: That was my cousin!
-      Portrait: {fileID: 21300000, guid: aff5d4d9f7e96e9458b7c3efd983c35b, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      text: Ow!
+      Portrait: {fileID: 21300000, guid: 956e6513fe7b65b48baabc9dd592daaf, type: 3}
+      name: Ow
+      hasVoice: 1
   - category: Join
     liners:
     - character: You
       text: I already feel our connection!
       Portrait: {fileID: 21300000, guid: 92e18eb464f080649aacd3ae20b4fc34, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Connection
+      hasVoice: 1
     - character: You
       text: It seems we all can just get along!
       Portrait: {fileID: 21300000, guid: 92e18eb464f080649aacd3ae20b4fc34, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: CanGetAlong
+      hasVoice: 1
     - character: You
       text: The more, the merrier!
       Portrait: {fileID: 21300000, guid: 92e18eb464f080649aacd3ae20b4fc34, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Merrier
+      hasVoice: 1
     - character: Ship AI
       text: Incoming friend request!
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Request
+      hasVoice: 1
     - character: Ship AI
       text: Friend count incremented!
       Portrait: {fileID: 21300000, guid: 077e342fdd03bae48b0a63e554ecc9ed, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: Incremented
+      hasVoice: 1
     - character: Ship
       text: Strength in numbers and all that.
-      Portrait: {fileID: 21300000, guid: 28500a3dfeb363341969b1a004ee3e9d, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      Portrait: {fileID: 21300000, guid: 3caa8661d9b2d91438be118ec2caa154, type: 3}
+      name: Strength
+      hasVoice: 1
     - character: Ship
       text: "Time\u2019s up!  Let\u2019s do this!"
       Portrait: {fileID: 21300000, guid: 3caa8661d9b2d91438be118ec2caa154, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: LetsDoThis
+      hasVoice: 1
     - character: Ship
       text: I like not being shot at!
       Portrait: {fileID: 21300000, guid: 956e6513fe7b65b48baabc9dd592daaf, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
-    - character: Ship
-      text: Yes, sir!
-      Portrait: {fileID: 21300000, guid: aff5d4d9f7e96e9458b7c3efd983c35b, type: 3}
-      voice: {fileID: 0}
-      hasVoice: 0
+      name: ShotAt
+      hasVoice: 1
   oneLinerContainer: {fileID: 50359746}
   portraitContainer: {fileID: 349398928}
   oneLinerList: {fileID: 1637140813}

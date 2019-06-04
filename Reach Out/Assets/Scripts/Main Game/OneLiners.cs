@@ -7,13 +7,14 @@ using FMODUnity;
 
 public class OneLiners : MonoBehaviour
 {
+    private FMOD.Studio.EventInstance audioEventInstance;
     [System.Serializable]
     public class Liner
     {
         public string character;
         public string text;
         public Sprite Portrait;
-        public StudioEventEmitter voice;
+        public string name;
         public bool hasVoice;
     }
 
@@ -47,13 +48,13 @@ public class OneLiners : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void GenerateLiner(string category)
@@ -69,7 +70,8 @@ public class OneLiners : MonoBehaviour
                 oneLinerContainer.transform.parent = oneLinerList.transform;
                 if (selected.hasVoice)
                 {
-                    selected.voice.Play();
+                    audioEventInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Sound Effects/Speech/One Liners/" + selected.name);
+                    audioEventInstance.start();
                 }
             }
         }
