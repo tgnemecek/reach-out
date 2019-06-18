@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Connection
   guid: 19574c3727706647b3283da84c3b2ca3
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -39,7 +39,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 1
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8816108478135540325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   Path: event:/Music/BeatLayer
   guid: 797fa3e9272dff47a0911a14c7da67e8
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/ShotAt
   guid: eea81c64ec761a4b9313558be661ec1f
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -101,7 +101,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Strength
   guid: 235eabd2b6f4d64faa8fe47ca8fbae84
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -151,6 +151,26 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 2610
+  Exists: 0
+--- !u!114 &-8003229467403648876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: D:\Unity Projects\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.bank
+  SubDir: 
+  lastModified: 636952030990797966
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 3003232
   Exists: 1
 --- !u!114 &-7671945303637356280
 MonoBehaviour:
@@ -167,7 +187,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Ow
   guid: 3d3c5f6dde37004c894d273a06e0af30
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -190,7 +210,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Request
   guid: c238e9c5e453de45863c8baa86ab6125
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -231,7 +251,7 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6772025656270712935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +353,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/LeftOurParty
   guid: 7d3448b148e96043a0293680cb49b74c
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -356,7 +376,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/Intro
   guid: 3d5da1408adf38409ddac20d887b429f
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -379,7 +399,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/LosingFriends
   guid: be5dc8ecd96e1f428a183521f29b5e1a
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -402,7 +422,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Incremented
   guid: 5b58406dd6a30f4cabe2ecf003670724
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -429,7 +449,7 @@ MonoBehaviour:
   FileSizes:
   - Name: 
     Value: 3003232
-  Exists: 1
+  Exists: 0
 --- !u!114 &-5326469369527017589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -445,7 +465,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/OutOfLife
   guid: e4f47c92d1f6ff469c6f5f06b7cf32ca
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -468,7 +488,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Decremented
   guid: 88099e88bcd97641ab30e99098655549
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -515,7 +535,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Sensibilities
   guid: 78ba7c3fbfef444c82db8620d228e7ee
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -555,7 +575,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/GetAlong
   guid: bf55c4c5718a294b81eb61537c76745d
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -578,7 +598,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Thing
   guid: 2d8ce903b40e0a44859f468cbf1c7141
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -626,6 +646,23 @@ MonoBehaviour:
   - Name: 
     Value: 1284
   Exists: 1
+--- !u!114 &-1698333130039674625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: LastUnitConnected
+  m_EditorClassIdentifier: 
+  Name: LastUnitConnected
+  Min: 0
+  Max: 3
+  Default: 0
+  Exists: 1
 --- !u!114 &-1579484555243756843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,7 +701,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Oops
   guid: d2d45e9332632547bc8b83e41bed85df
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -672,6 +709,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1312
+--- !u!114 &-1055920757056377392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: D:\Unity Projects\XtraJam4\Reach Out\Assets\Audio Builds\Desktop\Master.strings.bank
+  SubDir: 
+  lastModified: 636952030990817953
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 2610
+  Exists: 1
 --- !u!114 &-890027668242819962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,7 +744,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/NoMore
   guid: bb8e8d19acfb8d4ab210f142475f7bc2
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -710,7 +767,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/CanGetAlong
   guid: 068a7bcd8e99bd408ab133a29288f4f6
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -733,7 +790,7 @@ MonoBehaviour:
   Path: event:/Music/Level Theme
   guid: ea760557a06c2b469cceb059584e789d
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -774,7 +831,7 @@ MonoBehaviour:
   Min: 0
   Max: 3
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-62279675345120964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,8 +885,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -8185712819898388132}
-  - {fileID: -5539243133660087981}
+  - {fileID: -1055920757056377392}
+  - {fileID: -8003229467403648876}
   EditorEvents:
   - {fileID: 8179161543224169810}
   - {fileID: -6012366806566499446}
@@ -866,13 +923,13 @@ MonoBehaviour:
   - {fileID: -5326469369527017589}
   - {fileID: -8600355364282574896}
   EditorParameters:
-  - {fileID: -176530936575288964}
-  - {fileID: -6939380512585617840}
+  - {fileID: -1698333130039674625}
+  - {fileID: 5578365346368698355}
   MasterBanks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   StringsBanks:
-  - {fileID: -8185712819898388132}
-  stringsBankWriteTime: 636951921080000000
+  - {fileID: -1055920757056377392}
+  stringsBankWriteTime: 636952030990817953
   cacheVersion: 3
 --- !u!114 &706766429054862605
 MonoBehaviour:
@@ -889,7 +946,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Merrier
   guid: 342a74728c40944bb7135c5d43434ce0
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -912,7 +969,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/PieceOfMe
   guid: 0e8b74aee22a5141bcf4850e74df1f43
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -952,7 +1009,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Hit
   guid: e9e6a75a3074ff489ade30bd32199c57
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -992,7 +1049,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/MakeFriends
   guid: b1114a90d8b73f45818d2d34b9ae2df9
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1015,12 +1072,12 @@ MonoBehaviour:
   Path: event:/Music/Menu Theme
   guid: ef14c1b806bc844b855c04503c7e4b8a
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -9044553021065722719}
+  - {fileID: 8354900191420230202}
   MinDistance: 0
   MaxDistance: 0
   Length: 43636
@@ -1039,7 +1096,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Words
   guid: b10cf17625801149a56984245a21fb1b
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1062,7 +1119,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Tricks
   guid: 1bc25afcd91148428e648b76025d1165
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1142,7 +1199,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Dangerous
   guid: e0ea3ad8e4232948bf1b2ef386869320
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1265,7 +1322,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/Aie
   guid: 80d09aa4293de645a26ccee33c426ca5
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1288,7 +1345,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Connect
   guid: be54397f82f02345bf14e3c8ae714f97
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1296,6 +1353,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 1375
+--- !u!114 &5578365346368698355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: UnitsConnected
+  m_EditorClassIdentifier: 
+  Name: UnitsConnected
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &5967662478239146682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1311,7 +1385,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/OutOfHere
   guid: 63364a250f334e4aa76998733f92f1f8
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1334,7 +1408,7 @@ MonoBehaviour:
   Path: snapshot:/LowerSFX
   guid: 5d08768183d74845a89e5dba76b25510
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1400,7 +1474,7 @@ MonoBehaviour:
   Path: snapshot:/LowerAllButSpeech
   guid: 799ef469113b944182feaa092a7b84fe
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1446,7 +1520,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Gun
   guid: 07f892d821c7c941881b0c96f1eedeba
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1454,6 +1528,23 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 250
+--- !u!114 &8354900191420230202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Menu Theme/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &8695119452289189274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1469,7 +1560,7 @@ MonoBehaviour:
   Path: event:/Sound Effects/Speech/One Liners/LetsDoThis
   guid: 6af38c51eb40b14b9750321e909e9dea
   Banks:
-  - {fileID: -5539243133660087981}
+  - {fileID: -8003229467403648876}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
